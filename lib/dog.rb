@@ -1,9 +1,9 @@
 class Dog 
-  
 
-def name 
-  @name 
+def name=(dog_names)
+    @name = dog_names 
 end 
+
 
 def bark
   puts "woof!"
